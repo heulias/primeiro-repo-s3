@@ -6,7 +6,7 @@ variable "region"  {
 # bucket de chegada dos arquivos
 variable "raw_bucket_name" {
   type    = string
-  default = "raw-774180749539/teste"
+  default = "raw-774180749539"
 }
 
 # bucket de chegada dos arquivos
