@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "raw" {
-  bucket        = var.raw_bucket_name
+  bucket        = var.raw_bucket_name/teste
   force_destroy = true
 }
 
